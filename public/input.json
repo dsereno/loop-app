@@ -1,0 +1,204 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "position": 1,
+        "type": "input:select",
+        "label": "Estado do equipamento? (input:select)",
+        "required": false,
+        "hint": "This is a hint!",
+        "hint_url": "https://www.google.pt",
+        "hint_icon": "fa-check",
+        "options": [
+          {
+            "id": 12,
+            "label": "Grade A",
+            "value": "explicabo deal",
+            "deal_breaker": false
+          },
+          {
+            "id": 13,
+            "label": "Grade B",
+            "value": "ex",
+            "deal_breaker": false
+          },
+          {
+            "id": 14,
+            "label": "Grade C (DEAL BREAKER)",
+            "value": "dolore",
+            "deal_breaker": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "position": 3,
+        "label": "O equipamento apresenta riscos? (input:select)",
+        "required": false,
+        "type": "input:select",
+        "hint_url_text": "This is a link to Google",
+        "hint_url": "https://www.google.pt",
+        "options": [
+          {
+            "id": 8,
+            "label": "Sim (DEAL BREAKER)",
+            "value": "true",
+            "deal_breaker": true
+          },
+          {
+            "id": 9,
+            "label": "Não",
+            "value": "false",
+            "deal_breaker": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "position": 4,
+        "label": "Descreva o estado do telemóvel (input:text)",
+        "required": false,
+        "hint": "This is a hint",
+        "type": "input:text"
+      },
+      {
+        "id": 5,
+        "position": 5,
+        "label": "Faça upload de uma foto do produto (input:image)",
+        "required": true,
+        "hint": "This is a hint",
+        "hint_url_text": "This link is missing an url",
+        "type": "input:image"
+      },
+      {
+        "id": 6,
+        "position": 6,
+        "label": "Texto informativo (info:text)",
+        "hint": "This is a hint!",
+        "hint_url": "https://www.google.pt",
+        "required": false,
+        "type": "info:text"
+      },
+      {
+        "id": 7,
+        "position": 7,
+        "label": "Imagem informativa (info:image)",
+        "hint": "This is a hint!",
+        "hint_url": "https://www.google.pt",
+        "required": false,
+        "type": "info:image",
+        "url": "https://loopos-core-latest.stg.theloop.tech/assets/applications_icons/core-42e939cc8f058ddd2628bc1d6569b369fbc007b8c38de5f0956c62229a9396e3.png"
+      },
+      {
+        "id": 8,
+        "position": 8,
+        "label": "Data de compra (input:date)",
+        "hint": "This is a hint!",
+        "hint_url": "https://www.google.pt",
+        "type": "input:date",
+        "format": "%y",
+        "granularity": {
+          "day": false,
+          "hour": false,
+          "minute": false,
+          "month": false,
+          "year": true
+        },
+        "required": false
+      },
+      {
+        "id": 9,
+        "position": 9,
+        "label": "Escolha a cor do modelo (input:select)",
+        "hint": "This is a hint!",
+        "hint_url": "https://www.google.pt",
+        "required": false,
+        "type": "input:select",
+        "dropdown": true,
+        "options": [
+          {
+            "id": 0,
+            "label": "Preto",
+            "value": "0",
+            "deal_breaker": false
+          },
+          {
+            "id": 1,
+            "label": "Branco",
+            "value": "1",
+            "deal_breaker": false
+          },
+          {
+            "id": 2,
+            "label": "Red (DEAL_BREAKER)",
+            "value": "2",
+            "deal_breaker": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "position": 10,
+        "type": "input:bool",
+        "hint": "This is a hint!",
+        "hint_url": "https://www.google.pt",
+        "label": "Aceito os Termos (input:bool)",
+        "label_url": "https://loop-os.com/terms",
+        "deal_breaker_values": "false",
+        "required": false
+      },
+      {
+        "id": 11,
+        "position": 11,
+        "type": "input:bool",
+        "hint": "This is a hint!",
+        "hint_url": "https://www.google.pt",
+        "label": "Input bool not-required but if true it's a deal breaker",
+        "label_url": "https://loop-os.com/terms",
+        "deal_breaker_values": "true",
+        "required": false
+      },
+      {
+        "id": 12,
+        "position": 12,
+        "type": "input:bool",
+        "label": "Aceito os Termos (input:bool)",
+        "label_url": "https://loop-os.com/terms",
+        "deal_breaker_values": "",
+        "required": false
+      },
+      {
+        "id": 13,
+        "position": 13,
+        "label": "Número (input:number)",
+        "required": false,
+        "hint": "This is a hint",
+        "type": "input:number"
+      },
+      {
+        "id": 14,
+        "position": 14,
+        "label": "Número de telemóvel (input:phonenumber)",
+        "required": false,
+        "hint": "This is a hint",
+        "type": "input:phonenumber"
+      },
+      {
+        "id": 15,
+        "position": 15,
+        "label": "Iban2 (input:iban)",
+        "required": false,
+        "hint": "This is a hint",
+        "type": "input:iban"
+      },
+      {
+        "id": 16,
+        "position": 16,
+        "label": "Número (input:postalcode)",
+        "required": false,
+        "hint": "This is a hint",
+        "type": "input:postalcode"
+      }
+    ]
+  }
+  
